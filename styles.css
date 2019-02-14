@@ -55,7 +55,7 @@ header {
 }
 
 .nav-menu-hamburguer {
-    display: flex;
+    display: none;
     font-family: sans-serif;    
     height: 40px;
     justify-content: space-between;
@@ -67,10 +67,26 @@ header {
     border-radius: 2px;
     display: block;
     height: 3px;
-    margin: 1.5px 0;
-    width: 20px;
+    margin: 4.5px 0px 0px 0px; 
+    width: 30px;
+}
+
+
+.menu-hamburguer.visivel .traco-1 { 
+    transform: rotateZ(45deg); 
+    margin: -2,5px 0px 0px 0px; 
+
+}
+
+.menu-hamburguer.visivel .traco-3 {
+    transform: rotateZ(-45deg); 
+    margin: 2.5px 0px 0px 0px; 
+}
+
+.menu-hamburguer.visivel .traco-2 { 
+    opacity: 0; 
 }
 
 .visivel {
-
+    display: flex;
 }
