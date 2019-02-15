@@ -62,6 +62,10 @@ header {
     width: 300px;
 }
 
+.nav-menu-hamburguer.visivel {
+    display: flex;
+}
+
 .traco {
     background-color: black;
     border-radius: 2px;
@@ -69,6 +73,7 @@ header {
     height: 3px;
     margin: 4.5px 0px 0px 0px; 
     width: 30px;
+    transition: 1s;
 }
 
 
@@ -80,7 +85,7 @@ header {
 
 .menu-hamburguer.visivel .traco-3 {
     transform: rotateZ(-45deg); 
-    margin: 2.5px 0px 0px 0px; 
+    margin: -10.5px 0px 0px 0px; 
 }
 
 .menu-hamburguer.visivel .traco-2 { 

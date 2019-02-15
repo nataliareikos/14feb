@@ -22,6 +22,7 @@ const navMenuHamburguer = document.querySelector('.nav-menu-hamburguer');
 const visualizarMenu = function () {
     menuHamburguer.classList.toggle('visivel');
     navMenuHamburguer.classList.toggle('visivel');
+    
 
 }
 
